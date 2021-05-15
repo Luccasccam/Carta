@@ -6,7 +6,7 @@
 body{
     text-align: center;
     margin: 30px 0px;
-    background-image: url(./Abell-370.jpg);
+    background-image: url(./plane.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -62,4 +62,18 @@ a:hover{
 #atividade{
     padding: 10px;
     color: #FFFFFF;
+}
+@media only screen and (max-width: 600px){
+    .body-carta{
+        width: 95%;
+    }
+    a {
+        font-size: 19px;
+        margin: 10px;
+        padding: 5px;
+        background: #FFFFFF;
+        color: #000000;
+        border-radius: 5px;
+        text-decoration: none;
+    }
 }
