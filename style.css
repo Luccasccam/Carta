@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #FFFFFF;
+}
+body{
+    text-align: center;
+    margin: 30px 0px;
+    background-image: url(./Abell-370.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.body-carta{
+    width: 40%;
+    height: 60%;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background: rgba(46, 45, 45, 0.6);
+}
+.body-carta:hover{
+    border: 2px solid #FFFFFF;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 10px;
+}
+p{
+    font-size: 20px;
+}
+.left{
+    text-align: left;
+    padding: 10px;
+}
+h2{
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+}
+h3{
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+}
+footer p{
+    color: #000000;
+    font-size: 25px;
+}
+a{
+    padding: 5px;
+    background: #FFFFFF;
+    color: #000000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+a:hover{
+    background:#000000 ;
+    color: #FFFFFF;
+}
+#atividade{
+    padding: 10px;
+    color: #FFFFFF;
+}
